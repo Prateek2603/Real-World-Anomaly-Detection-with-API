@@ -1,0 +1,8 @@
+{
+    "type": "or_ensemble",
+    "models": [
+        "isolation_forest",
+        "autoencoder"
+    ],
+    "description": "High recall mode using logical OR"
+}

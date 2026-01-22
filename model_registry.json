@@ -1,0 +1,20 @@
+{
+    "default_model": "autoencoder",
+    "available_models": {
+        "isolation_forest": {
+            "path": "artifacts/models/isolation_forest.pkl",
+            "type": "sklearn",
+            "description": "Fast baseline model"
+        },
+        "autoencoder": {
+            "path": "artifacts/models/autoencoder",
+            "type": "tensorflow",
+            "description": "Balanced default fraud detector"
+        },
+        "or_ensemble": {
+            "path": "artifacts/config/or_ensemble.json",
+            "type": "ensemble",
+            "description": "High recall fraud detection mode"
+        }
+    }
+}
